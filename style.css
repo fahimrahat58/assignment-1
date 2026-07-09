@@ -1,16 +1,18 @@
 *{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
+  margin:0 0;
 }
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 20px 65px;
+    margin: 15px 65px;
 }
 .nav-button{
     display: flex;
     list-style: none;
     gap: 24px;
+    margin-top: 15px;
 }
 nav ul li a{
     text-decoration: none;
@@ -21,6 +23,46 @@ nav ul li a{
     margin-top: 10px;
     background-color: #1D4ED8;
     border-radius: 5px;
-    padding: 8px 25px;
+    padding: 10px 30px;
     color: white;
+    font-weight: bold;
+    font-size: 16px;
 }
+.hero-banner{
+    background-image: linear-gradient( to right, rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.2)),
+url("./images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 85vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 50px;
+    
+}  
+.hero-banner p{
+    color: white;
+    width: 600px;
+    margin-bottom: 60px;
+}
+.hero-text{
+    color: white;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: -250px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+.hero-banner h1{
+    margin:0;
+}
+
+    
+
+    

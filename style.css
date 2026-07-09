@@ -36,7 +36,7 @@ url("./images/banner.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 85vh;
+    height: 100vh;
     text-align: center;
     display: flex;
     flex-direction: column ;
@@ -44,7 +44,7 @@ url("./images/banner.jpg");
     align-items: center;
     padding-top: 50px;
     padding-left: 50px;
-    
+    box-sizing: border-box;
 }  
 .hero-banner p{
     color: white;

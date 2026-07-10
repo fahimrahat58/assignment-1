@@ -228,3 +228,45 @@ hr{
 .price-card  li::marker {
     color: blue;
 }
+.news-letter{
+    background-color: #FFF5F7;
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    max-width: 1200px;
+    width: 100%;
+    min-height: 300px;
+    margin: 80px auto;     
+    padding: 60px;
+    box-sizing: border-box;
+    align-items: center;
+    gap: 100px;
+    border-radius: 24px;
+}
+
+form input{
+    border:none;
+    outline: none;
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 8px;
+    width: 100%;
+}
+.letter-h{
+    font-size: xx-large;
+    width: 350px;
+    line-height: 1.2;
+    margin-left: 120px;
+    color: #0D1B2A;
+}
+.letter-p{
+    margin-top: 10px;
+}
+.letter-hsix{
+    color: #1D4ED8;
+}
+.letter-hfour{
+    margin: 20px 0;
+    color: #1D4ED8;
+}

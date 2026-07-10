@@ -3,6 +3,7 @@
   font-optical-sizing: auto;
   margin:0 0;
 }
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -72,7 +73,7 @@ url("./images/banner.jpg");
     margin-left: -100px;
 }
 main{
-    max-width: 1350px;
+    max-width: 100%;
     margin: 40px auto;
     text-align: center;
 }
@@ -104,11 +105,126 @@ main{
 .card h4{
     margin-top: 8px;
     margin-left: 15px;
-    
+    color: #0D1B2A;
 }
 .card p{
     margin-top: 8px;
     margin-left: 15px;
     margin-bottom: 20px;
     color:#575757;
+}
+.price-cards{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.price-cards h1{
+    color:#0D1B2A;
+}
+.price-cards p{
+    color:#575757;
+    margin-top: 10px;
+}
+ul {
+    list-style-position: inside;
+    text-align: left;
+}
+.price-card{
+    border: 1px solid rgba(87, 87, 87, 0.2);
+    border-radius: 10px;
+    text-align: left;
+    min-height: 300px;
+    padding: 40px 40px;
+}
+.price-ticket{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.price-card h4{
+    font-size: 12px;
+    font-weight: 600;
+    color: #6B7280;
+    margin-bottom: 8px;
+    
+}
+
+.price-card h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.price-card .person{
+    font-size: 16px;
+    color: #6B7280;
+    margin-top: 4px;
+    margin-bottom: 24px;
+}
+
+.price-card ul{
+    font-size: 16px;
+    line-height: 28px;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.price-card li{
+    margin-bottom: 10px;
+    text-align: left;
+}
+.price-buttona{
+    border: 1px solid #2563EB;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 10px 70px;
+    color: #1D4ED8;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+.price-buttonb{
+     border: 1px solid #2563EB;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 10px 70px;
+    color: white;
+    border-radius: 5px;
+    background-color: #2563EB;
+    cursor: pointer;
+}
+.price-buttonc{
+        border: 1px solid #0D1B2A;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 10px 70px;
+    color: #0D1B2A;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+hr{
+    border: none;
+    border-top: 2px dotted #ccc;
+    margin-top: 20px;
+}
+.secend{
+    background-color: #0D1B2A;
+}
+.secend-p{
+    color: #93C5FD;
+}
+.secend-price{
+    color: white;
+}
+.list{
+    color: #999999;
+}
+.price-card  li::marker {
+    color: blue;
 }

@@ -265,8 +265,9 @@ form input{
 }
 .letter-hsix{
     color: #1D4ED8;
+    font-size: small;
 }
 .letter-hfour{
-    margin: 20px 0;
+    margin: 10px 0;
     color: #1D4ED8;
 }

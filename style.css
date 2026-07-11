@@ -274,7 +274,7 @@ form input{
 .faq{
     background-color: #1E1E1E;
     gap: 500px;
-     max-width: 800px;
+    max-width: 800px;
     width: 100%;
     min-height: 350px;
     margin: 80px auto;     
@@ -326,3 +326,52 @@ details[open] summary::after {
     color: #FFFFF0;
     margin: 10px 0;
 }
+footer{
+    background-color: #0D1B2A;
+    min-height: 200px;
+}
+.foot-up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px;
+}
+.logo{
+    width: 40px;
+    height: 40px; 
+}
+.icon{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.icon img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.foot-hr{
+    width: 98%;
+    margin: auto;
+    border: 1px solid #333333;
+}
+.foot-down{
+    display: flex;
+    justify-content: space-between;
+}
+.privacy{
+    display: flex;
+    gap: 20px;
+    color:#999999;
+    padding: 40px 40px;
+    cursor: pointer ;
+}
+.reserved{
+    color:#999999;
+    padding: 40px 40px;
+}
+footer a{
+    text-decoration: none;
+    color: #999999;
+}
+    

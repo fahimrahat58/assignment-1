@@ -271,3 +271,58 @@ form input{
     margin: 10px 0;
     color: #1D4ED8;
 }
+.faq{
+    background-color: #1E1E1E;
+    gap: 500px;
+     max-width: 800px;
+    width: 100%;
+    min-height: 350px;
+    margin: 80px auto;     
+    padding: 60px;
+    box-sizing: border-box;
+    align-items: center;
+}
+    
+
+summary{
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    font-size: large;
+    font-weight: 600;
+    margin-left: 5px;
+    border: 1px solid #191A1D;
+    border-radius: 5px;
+    background-color: #0F1012;
+    padding: 10px 10px;
+}
+summary::-webkit-details-marker {
+    display: none;
+}
+summary::after {
+    content: "+";
+    font-size: 20px;
+}
+details[open] summary::after {
+    content: "-";
+}
+.faq-h{
+    font-style: italic;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+.faq-details{
+    margin: 10px 0;
+}
+.faq-summary{
+    color: #ffffff;
+    font-size: large;
+    font-weight: 600;
+}
+.faq-para{
+    color: #FFFFF0;
+    margin: 10px 0;
+}

@@ -1,47 +1,36 @@
-<div align="center">
+# 💻 DEVCONF 2026
 
-  <h1>💻 DEVCONF 2026</h1>
-  <p><strong>Premier Developer & Tech Conference Landing Page</strong></p>
+**DEVCONF 2026** is a responsive tech conference landing page designed for developers, founders, and industry leaders. It offers a modern, sleek user interface for viewing event details, keynote speakers, ticket pricing, and FAQs.
 
-  [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=github)](#)
-  [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)
-  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](#)
-
-</div>
+🌐 **Live Demo:** [DEVCONF 2026](https://fahimrahat58.github.io/DEVCONF-2026/)
 
 ---
 
-## 📌 Overview
+## 🌟 Key Features
 
-**DEVCONF 2026** is a responsive tech conference landing page designed for developers, founders, and industry leaders. It showcases conference details, prominent keynote speakers, ticket pricing plans, an accordion-style FAQ, and a newsletter registration section.
-
----
-
-## ✨ Key Features & Layout Sections
-
-- **Hero Section:** Dark-themed hero banner featuring event tagline, countdown info, call-to-action (CTA) buttons, and full responsive navigation.
-- **Meet the Speakers Grid:** Showcases industry leaders with category tags (AI/ML, Cloud & DevOps, Frontend, Security), photo cards, and speaker details.
-- **Secure Your Spot (Pricing Cards):** Detailed pricing comparison table highlighting *Standard*, *Pro*, and *Team* registration tiers.
-- **Newsletter Subscription:** Interactive signup section allowing users to stay updated with event announcements.
-- **Frequently Asked Questions (FAQ):** Expandable accordion list answering key attendee queries.
-- **Footer Navigation:** Dark footer section with copyright details, legal terms, and social media links.
+- **Responsive Design:** Optimized for seamless viewing across all screen sizes (Mobile, Tablet, Desktop).
+- **Hero & Countdown:** Dark-themed header with key conference announcements and quick CTA registration buttons.
+- **Meet the Speakers Grid:** Interactive showcase of industry leaders with domain tags, avatars, and bios.
+- **Pricing Plans:** Detailed pricing cards displaying Standard, Pro, and Team conference access tiers.
+- **FAQ Accordion:** Interactive section addressing common attendee questions.
+- **Newsletter Subscription:** Custom input form section for staying updated with event news.
 
 ---
 
 ## 🛠️ Built With
 
-- **HTML5** - Structured and semantic layout
-- **Tailwind CSS** - Utility-first CSS framework for modern styling and responsive design
+- **HTML5** - Structured and semantic web contents
+- **Tailwind CSS** - Utility-first CSS framework for modern styling and layout design
 
 ---
 
 ## 🚀 Getting Started
 
-To get a local copy up and running, follow these simple steps:
+Follow these instructions to get a local copy of the project up and running.
 
 ### Prerequisites
 
-A modern web browser (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari).
+You only need a modern web browser (like Google Chrome, Mozilla Firefox, or Microsoft Edge).
 
 ### Installation
 
